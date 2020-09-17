@@ -15,16 +15,16 @@
         <hr class="my-4">
     </div>
 
-    <nav style="margin-top: -280px; height:58px; padding:15px;" class="navbar-secondary bg-secondary text-right">
+    <nav style="margin-top: -280px; height:65px; padding:200px;" class="navbar-warning bg-warning text-center">
 
-        <a class="btn btn-outline-danger" href="{{url('/')}}">
+        <a class="btn btn-outline-success" href="{{url('/')}}">
             Home 
         </a> 
-        <a class="btn btn-outline-danger" href="{{url('/profile')}}">
+        <a class="btn btn-outline-success" href="{{url('/profile')}}">
             Profile 
         </a> 
         
-        <button type="button" class="btn btn-outline-danger active">
+        <button type="button" class="btn btn-outline-success active">
             About
         </button>
  

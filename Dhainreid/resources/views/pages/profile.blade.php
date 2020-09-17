@@ -10,23 +10,23 @@
 
     <div class="jumbotron jumbotron-fluid">
 
-            <h1 class="display-4 text-center">Profile</h1>
+            <h1 class="display-4  text-center">Profile</h1>
 
             <hr class="my-4">
 
     </div>
 
-    <nav style="margin-top: -280px; height:58px; padding:15px;" class="navbar-dark bg-dark right">
+    <nav style="margin-top: -280px; height:65px; padding:200px;" class="navbar-warning bg-warning text-center">
     
-        <a class="btn btn-outline-danger" href="{{url('/')}}">
+        <a class="btn btn-outline-success" href="{{url('/')}}">
             Home
         </a>
 
-        <button class="btn btn-outline-danger active">
+        <button class="btn btn-outline-success active">
             Profile
         </button> 
 
-        <a class="btn btn-outline-danger" href="{{url('/about')}}">
+        <a class="btn btn-outline-success" href="{{url('/about')}}">
             About
         </a>
 

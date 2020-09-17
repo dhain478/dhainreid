@@ -11,23 +11,23 @@
     <div class="jumbotron jumbotron-fluid">
 
 
-        <h1 class="display-4 text-center">Laravel Demos</h1>
+        <h1 class="display-4 text-center">Laravel Demons</h1>
 
         <hr class="my-4">
 
     </div>
 
-    <nav style="margin-top: -280px; height:58px; padding:15px;" class="navbar-secondary bg-primary text-right">
+    <nav style="margin-top: -280px; height:65px; padding:200px;" class="navbar-warning bg-warning text-center">
 
-        <button type="button" class="btn btn-outline-danger">
+        <button type="button" class="btn btn-outline-success">
             Home
         </button> 
 
-        <a class="btn btn-outline-danger" href="{{url('/profile')}}">
+        <a class="btn btn-outline-success" href="{{url('/profile')}}">
             Profile
         </a> 
 
-        <a class="btn btn-outline-danger" href="{{url('/about')}}">
+        <a class="btn btn-outline-success" href="{{url('/about')}}">
             About
         </a>
 
